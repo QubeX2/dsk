@@ -1,15 +1,85 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Köpings Dragspelsklubb</title>
-    <link rel="stylesheet" href="production.css" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Köpings Dragspelsklubb</title>
+  <link rel="stylesheet" href="css/production.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
 
-  <body>
-    <h1 class="text-3xl font-bold underline text-red-500">
-      Köping Dragspelsklubb
-    </h1>
-  </body>
+<body class="bg-fixed bg-no-repeat bg-black" style="background-image: url('images/accordion.png'); background-position-x: 50%;">
+<nav class="mx-auto top-0 fixed w-full h-24 bg-gradient-to-r from-yellow-500 to-yellow-200 p-2 flex flex-row gap-x-1 items-center z-10">
+  <img src="images/dsk-logo.png" alt="Köpings Dragspelsklubb" class="h-20" />
+  <ul class="ml-3 list-none flex flex-row gap-x-3 text-gray-900 font-bold text-2xl">
+    <li class="bg-gray-900 text-yellow-400 rounded px-3 text-nowrap"><a href="#">HEM</a></li>
+    <li class="bg-gray-900 text-yellow-400 rounded px-3 text-nowrap"><a href="#">KLUBBEN</a></li>
+    <li class="bg-gray-900 text-yellow-400 rounded px-3 text-nowrap"><a href="#">MEDLEM</a></li>
+  </ul>
+</nav>
+<div class="container mx-auto">
+  <div class="mt-24 grid grid-cols-1 lg:grid-cols-3 gap-4 p-4 items-start">
+    <div class="p-4 border border-gray-300 shadow rounded-xl bg-gray-50 flex flex-col gap-y-1 items-center">
+      <h1 class="text-2xl font-bold">KÖPINGS DRAGSPELSKLUBB</h1>
+      <img class="h-70 shadow-xl border-8 border-white rounded-xl" src="images/main.jpg" />
+      <p>Spelglädje är vårt motto också för spelåret 2024</p>
+    </div>
+    <div class="p-4 border border-gray-300 shadow rounded-xl bg-gray-50 flex flex-col gap-y-1 items-center opacity-85">
+      <h1 class="text-2xl font-bold">ÖVNING</h1>
+      <p>
+        Övning i Kulturskolan Folkets Park<br>
+        Torsdagar kl 18:00<br>
+        Uppehåll under sommaren (juni-augusti)
+      </p>
+    </div>
+    <div class="p-4 border border-gray-300 shadow rounded-xl bg-yellow-100 flex flex-col gap-y-1 items-center opacity-85">
+      <h1 class="text-2xl font-bold">BOKNINGAR</h1>
+      <p>
+        Frågor kring bokningar kontakta:<br>
+        Monika Krysén 070-551 65 78<br>
+        Övriga frågor: www.styrelsen@kopingsdragspelsklubb.se
+      </p>
+    </div>
+    <div class="row-span-2 p-4 border border-gray-300 shadow rounded-xl flex flex-col gap-y-1 items-center bg-yellow-100 opacity-80">
+      <h1 class="text-2xl font-bold">HISTORIK</h1>
+      <h2 class="text-xl font-bold">3 oktober 1974</h2>
+      <p>Musikhandlare Willhard Granlund hade i många år drömt om en dragspelsklubb i Köping.</p>
+      <p>Den 3 oktober1974 bjöd han därför hem följande personer: Morgan Albinsson, Fritz Calson,
+        Wilbert Grund, Ryno Gustafsson, Ivar Jansson, Bengt Larson och Conny Zetterlund.</p>
+      <p>En interimsstyrelse bildades med Conny Zetterlund som sammankallande.</p>
+      <img src="images/historik.jpg" />
+      <a class="underline" href="#">Läs mer...</a>
+    </div>
+    <div class="col-span-2 p-4 border border-gray-300 shadow rounded-xl bg-white flex flex-col gap-y-1">
+      <h1 class="text-2xl font-bold">SPELNINGAR 2024</h1>
+      <div class="grid grid-cols-6 gap-1">
+        <span class="col-span-3 font-bold">PLATS</span><span class="font-bold">DATUM</span><span class="font-bold">TID</span><span class="font-bold">GRUPP</span>
+        <span class="col-span-3">Brukskyrkan Kolsva (Dans kring granen)</span><span>14 januari</span><span>15.00</span><span>Liten</span>
+        <span class="col-span-3">Vilsta Eskilstuna</span><span>25 januari</span><span>17.30</span><span>Medelstor</span>
+        <span class="col-span-3">Misteln Kungsör</span><span>14 mars</span><span>14.00</span><span>Medelstor</span>
+        <span class="col-span-3">Tallåsgården Kungsör</span><span>15 maj</span><span>14.00</span><span>Medelstor</span>
+        <span class="col-span-3">Kulturveckan  Folkets Park</span><span>2 juni</span><span></span><span>Stor</span>
+        <span class="col-span-3">Dybecksgården</span><span>6 juni</span><span>09.00</span><span>Stor</span>
+        <span class="col-span-3">Gammelgården</span><span>6 juni</span><span></span><span>Stor</span>
+        <span class="col-span-3">Konsert 50 år med Bengan</span><span>14 September</span><span>15.00</span><span>Stor</span>
+        <span class="col-span-3">PRO Hällby Eskistuna</span><span>19 September</span><span>13.30</span><span>Stor</span>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+<!--
+<div class="container mx-auto bg-white w-5/6 min-h-screen flex flex-col mt-24 opacity-85">
+  <div class="bg-gray-800 pt-4 pb-8 flex flex-col gap-y-4">
+    <h1 class="mx-auto bg-gray-900 text-yellow-400 px-4 py-2 rounded text-5xl font-bold">Köpings Dragspelsklubb</h1>
+    <div class="mx-auto"><img class="h-80 shadow-xl border-8 border-gray-50 rounded" src="images/main.jpg" /></div>
+
+  </div>
+</div>
+-->
+</body>
 </html>
